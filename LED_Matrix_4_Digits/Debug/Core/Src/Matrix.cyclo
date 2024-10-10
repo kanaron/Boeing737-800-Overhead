@@ -1,0 +1,3 @@
+../Core/Src/Matrix.c:12:6:Matrix_init	3
+../Core/Src/Matrix.c:23:6:Matrix_clear	3
+../Core/Src/Matrix.c:31:6:Matrix_set_digit	4

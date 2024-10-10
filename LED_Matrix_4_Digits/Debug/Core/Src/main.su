@@ -1,0 +1,13 @@
+../Core/Src/main.c:82:6:InitializeMatrix	24	static
+../Core/Src/main.c:122:6:InitializeCommand	16	static
+../Core/Src/main.c:127:6:HandleDataCommand	32	static
+../Core/Src/main.c:160:6:ProcessData	144	static
+../Core/Src/main.c:218:5:main	8	static
+../Core/Src/main.c:272:6:SystemClock_Config	88	static
+../Core/Src/main.c:318:13:MX_I2C1_Init	8	static
+../Core/Src/main.c:366:13:MX_I2C2_Init	8	static
+../Core/Src/main.c:414:13:MX_SPI1_Init	8	static
+../Core/Src/main.c:453:13:MX_USART2_UART_Init	8	static
+../Core/Src/main.c:489:13:MX_GPIO_Init	48	static
+../Core/Src/main.c:520:6:HAL_SPI_RxCpltCallback	16	static
+../Core/Src/main.c:562:6:Error_Handler	8	static,ignoring_inline_asm
