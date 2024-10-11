@@ -525,7 +525,7 @@ void HAL_SPI_RxCpltCallback(SPI_HandleTypeDef *hspi)
 
 	        if (rxIndex >= 1024)
 	        {
-	            rxIndex = 0;  // Reset index or handle overflow
+	            rxIndex = 0;
 	        }
 
 	        if (parsingFrameLength)  // If we're parsing the frame length

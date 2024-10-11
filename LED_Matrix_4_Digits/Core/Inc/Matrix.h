@@ -11,12 +11,10 @@
 
 #include "Dot.h"
 
-// Define a structure for the Matrix
 typedef struct {
     Dot dots[7][5];
 } Matrix;
 
-// Function prototypes for Matrix
 void Matrix_init(Matrix *matrix, uint8_t startingAddress[7]);
 void Matrix_clear(Matrix *matrix);
 void Matrix_set_digit(Matrix *matrix, uint8_t digit);

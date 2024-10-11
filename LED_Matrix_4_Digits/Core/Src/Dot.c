@@ -18,7 +18,7 @@ void Dot_turn_on(Dot *dot) {
     dot->state = true;
     IS_IIC_WriteByte(Addr_GND_GND, 0xFE, 0xC5);  // Unlock FDh
     	IS_IIC_WriteByte(Addr_GND_GND, 0xFD, 0x01);  // Select page 1: PWM registers
-    // Write the state to the LED driver
+
     IS_IIC_WriteByte(Addr_GND_GND, dot->address, 0xFF);  // Turn on LED
 }
 
@@ -26,7 +26,7 @@ void Dot_turn_off(Dot *dot) {
     dot->state = false;
     IS_IIC_WriteByte(Addr_GND_GND, 0xFE, 0xC5);  // Unlock FDh
     	IS_IIC_WriteByte(Addr_GND_GND, 0xFD, 0x01);  // Select page 1: PWM registers
-    // Write the state to the LED driver
+
     IS_IIC_WriteByte(Addr_GND_GND, dot->address, 0x00);  // Turn off LED
 }
 
